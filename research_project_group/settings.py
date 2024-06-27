@@ -34,7 +34,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'research_project.urls'
+ROOT_URLCONF = 'research_project_group.urls'
 
 TEMPLATES = [
     {
@@ -52,7 +52,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'research_project.wsgi.application'
+WSGI_APPLICATION = 'research_project_group.wsgi.application'
 
 DATABASES = {
     'default': {
